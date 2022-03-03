@@ -1,0 +1,94 @@
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family:'Roboto',sans-serif ;
+
+    /* font: normal 16px 'Roboto',sans-serif */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: aqua;
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0);
+}
+
+.info {
+    margin-bottom: 15px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 42px; */
+}
+
+/*Box Model*/
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* .social {
+    background: green;
+    padding: 15px;
+    padding: 15px 40px;
+    padding: 15px 20px 25px 30px;
+    margin: 5px;
+
+    border: 5px solid red;
+    border-bottom-style: solid;
+    border-top-width: 15px;
+    border-right-color: blue;
+} */
+ 
+/* .box-model > div{
+    float: left;
+    background-color: #000;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: #ffef9c;
+}
+
+.bg-green {
+    background: #a4ffac;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.email {
+    background: #a4ffac;
+}
